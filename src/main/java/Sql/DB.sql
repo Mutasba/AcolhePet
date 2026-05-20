@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS sistema;
+
+USE sistema;
+
+CREATE TABLE IF NOT EXISTS usuarios (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100),
+    email VARCHAR(100)
+);
